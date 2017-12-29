@@ -63,7 +63,7 @@ library(dplyr)
 
 ##create a second, independent tidy data set with the average of each variable for each 
 ##activity and each subject
-  train_test_ave <- train_test_ms %>%
+  train_test_ave <- train_test_meanstd %>%
       group_by(subject, activity, activity_name) %>%
       summarize_all(funs(mean))
   
