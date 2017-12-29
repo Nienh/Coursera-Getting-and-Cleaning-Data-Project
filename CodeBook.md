@@ -111,7 +111,7 @@ File|Dimensions|Description
 
 ## Modification to Source Data
 
-### Train_Test_MeanStd.csv
+### Train_Test_MeanStd.txt
 1.	Use values from `features.txt` to rename columns in `X_train.txt` and `X_test.txt` 
 2.	Merge training data sets (`subject_train.txt`, `X_train.txt`, `y_train.txt`) into one dataset, renaming `y_train.txt` column to “activity” and `subject_train.txt` column to “subject.”
 3.	Merge test data sets (`subject_test.txt`, `X_test.txt`, `y_test.txt`) into one dataset, renaming `y_test.txt` column to “activity” and `subject_test.txt` column to “subject.”
@@ -127,8 +127,8 @@ File|Dimensions|Description
 5.	Keep mean and standard deviation columns only (remove all other columns)
 6.	Map activity name to activity ID using `activity_labels.txt` as the key
 
-### Train_Test_MeanStd_AVE.csv
-Using data from Train_Test_Mean_Std.csv above, create an independent tidy data set with the average of each variable for each activity and each subject
+### Train_Test_MeanStd_AVE.txt
+Using data from Train_Test_Mean_Std.txt above, create an independent tidy data set with the average of each variable for each activity and each subject
 
 
 
