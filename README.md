@@ -16,8 +16,8 @@ Create one R script called `run_analysis.R` that does the following.
 4)	Run the R Script `run_analysis.R`
 5)	Output files
 
-    a.	`Train_Test_MeanStd.csv`: Extracts only the measurements on the mean and standard deviation for each measurement.
+    a.	`Train_Test_MeanStd.txt`: Extracts only the measurements on the mean and standard deviation for each measurement.
     
-    b.	`Train_Test_MeanStd_AVE.csv`: Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+    b.	`Train_Test_MeanStd_AVE.txt`: Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
