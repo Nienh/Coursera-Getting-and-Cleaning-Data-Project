@@ -59,7 +59,7 @@ library(dplyr)
   mean_std_colnames <- grep("std|mean", names(train_test), value=TRUE)
   train_test_meanstd <- train_test[,c("subject","activity","activity_name", mean_std_colnames)]
   
-  write.table(train_test_meantstd, file = "Train_Test_MeanStd.txt", row.names = FALSE)
+  write.table(train_test_meanstd, file = "Train_Test_MeanStd.txt", row.names = FALSE)
 
 ##create a second, independent tidy data set with the average of each variable for each 
 ##activity and each subject
