@@ -1,6 +1,6 @@
 # Code Book
 
-*Train_Test_MeanStd.csv and Train_Test_MeanStd_AVE.csv*
+*Train_Test_MeanStd.txt and Train_Test_MeanStd_AVE.txt*
 
 ## Data Dictionary
 
